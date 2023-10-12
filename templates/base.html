@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css" />
+	<title>stackslam &gt; {% block title %}{% endblock %}</title>
+	<meta name="description" content="{% block description %}{% endblock description %}">
+</head>
+
+<body>
+	<div class="container">
+		<nav>
+			<a href="/"><b>stackslam</b></a>
+			<a href="/pages">Index</a>
+			<a href="/log">Log</a>
+		</nav>
+		{% block content %} {% endblock %}
+	</div>
+</body>
+
+</html>

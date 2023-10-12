@@ -1,0 +1,5 @@
+title = "stackslam"
+base_url = "https://stackslam.net"
+
+default_language = "en"
+generate_feed = true
